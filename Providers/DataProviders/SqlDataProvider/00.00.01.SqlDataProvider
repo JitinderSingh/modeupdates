@@ -1,0 +1,37 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID(N'{databaseOwner}[{objectQualifier}MyDNN_Items]') AND type in (N'U'))
+	DROP TABLE {databaseOwner}[{objectQualifier}MyDNN_Items]
+GO
+
+CREATE TABLE {databaseOwner}{objectQualifier}MyDNN_Items
+(
+	[ItemId] INT NOT NULL IDENTITY (1,1),
+	[IconId] INT NULL,
+	[ItemTitle] NVARCHAR(MAX) NOT NULL,
+	[ItemContent] NVARCHAR(MAX) NOT NULL,
+	[ItemReadMore] NVARCHAR(MAX) NOT NULL,
+	[ModuleId] INT NOT NULL,
+	[CreatedOnDate] DATETIME NOT NULL,
+	[CreatedByUserId] INT NOT NULL,
+	[LastModifiedOnDate] DATETIME NOT NULL,
+	[LastModifiedByUserId] INT NOT NULL
+)
+GO
+
+
+ALTER TABLE {databaseOwner}[{objectQualifier}MyDNN_Items] ADD CONSTRAINT [PK_{objectQualifier}MyDNN_Items] PRIMARY KEY CLUSTERED ([ItemId])
+GO
+
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
