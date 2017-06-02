@@ -1,0 +1,25 @@
+﻿<h3>MyDNN</h3>
+<p class="Contributor">
+	Jitinder <br />
+	<a href="mailto:binarybits.corporate@gmail.com">eMail</a><br />
+	<a href=https://github.com/JitinderSingh>JitinderSingh</a><br />
+</p>
+
+
+<hr/>
+<div class="License">
+	<h3>About the MyDNN</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>Description about version.</p>
+	
+	<h4>Bug Fixes</h4>
+	<ul>
+			<li>List</li>
+			<li>of</li>
+			<li>bug</li>
+			<li>fixes</li>
+	</ul>
+	
+</div>
