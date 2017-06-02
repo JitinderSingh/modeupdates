@@ -1,0 +1,5 @@
+F:\download\Dnn.Platform-development\bin\MyDNN.dll
+F:\download\Dnn.Platform-development\bin\MyDNN.pdb
+F:\download\Dnn.Platform-development\Dnn.Platform-development\MyDNN\obj\Release\MyDNN.dll
+F:\download\Dnn.Platform-development\Dnn.Platform-development\MyDNN\obj\Release\MyDNN.pdb
+F:\download\Dnn.Platform-development\Dnn.Platform-development\MyDNN\obj\Release\MyDNN.csprojResolveAssemblyReference.cache
