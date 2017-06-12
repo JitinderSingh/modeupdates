@@ -14,9 +14,8 @@
                 <asp:ListItem Value="1">fa fa-pencil</asp:ListItem>
                 <asp:ListItem Value="2">fa fa-Book</asp:ListItem>
                 <asp:ListItem Value="3">fa fa-test</asp:ListItem>
-                <asp:ListItem Value="4">fa fa-compass</asp:ListItem>
+                <asp:ListItem Value="4">fa fa-compass</asp:ListItem>    
             </asp:DropDownList>
-
         </div>
         <div class="dnnFormItem">
             <dnn:label ID="lblTitle" runat="server" />
