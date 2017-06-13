@@ -2,13 +2,13 @@
   <packages>
     <package name="MyDNN" type="Module" version="00.00.01">
       <friendlyName>MyDNN</friendlyName>
-      <description>Raj MyDNN module</description>
+      <description>MyDNN module</description>
       <iconFile>~/Images/icon_extensions_32px.png</iconFile>
       <owner>
-        <name>Raj</name>
-        <organization>Raj</organization>
-        <url>http://www.christoc.com/</url>
-        <email>modules@christoc.com</email>
+        <name>Jitinder</name>
+        <organization>BinaryBits</organization>
+        <url>http://www.binarybits.in/</url>
+        <email>binarybits.corporate@gmail.com</email>
       </owner>
       <license src="License.txt"></license>
       <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
