@@ -21,6 +21,7 @@
             <dnn:label ID="lblTitle" runat="server" />
             <asp:TextBox ID="txtTitle" runat="server" />
         </div>
+        
         <div class="dnnFormItem">
             <dnn:label ID="lblContent" runat="server" />
             <asp:TextBox ID="txtContent" runat="server" TextMode="MultiLine" Rows="5" Columns="20" />
