@@ -6,9 +6,9 @@
 ' TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
 ' THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
 ' CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-' DEALINGS IN THE SOFTWARE.
-' 
+' DEALINGS IN THE SOFTWARE
 */
+
 using System.Collections.Generic;
 using DotNetNuke.Data;
 
@@ -24,13 +24,11 @@ namespace DotNetNuke.Modules.MyDNN.Components
                 rep.Insert(t);
             }
         }
-
         public void DeleteItem(int itemId, int moduleId)
         {
             var t = GetItem(itemId, moduleId);
             DeleteItem(t);
         }
-
         public void DeleteItem(Item t)
         {
             using (IDataContext ctx = DataContext.Instance())
@@ -39,7 +37,6 @@ namespace DotNetNuke.Modules.MyDNN.Components
                 rep.Delete(t);
             }
         }
-
         public IEnumerable<Item> GetItems(int moduleId)
         {
             IEnumerable<Item> t;
@@ -50,7 +47,6 @@ namespace DotNetNuke.Modules.MyDNN.Components
             }
             return t;
         }
-
         public Item GetItem(int itemId, int moduleId)
         {
             Item t;
@@ -61,7 +57,6 @@ namespace DotNetNuke.Modules.MyDNN.Components
             }
             return t;
         }
-
         public void UpdateItem(Item t)
         {
             using (IDataContext ctx = DataContext.Instance())
