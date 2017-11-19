@@ -2,11 +2,11 @@
   <packages>
     <package name="MyDNN" type="Module" version="00.00.01">
       <friendlyName>MyDNN</friendlyName>
-      <description>Raj MyDNN module</description>
+      <description>Jitinder MyDNN module</description>
       <iconFile>~/Images/icon_extensions_32px.png</iconFile>
       <owner>
-        <name>Raj</name>
-        <organization>Raj</organization>
+        <name>Jitinder</name>
+        <organization>Home</organization>
         <url>http://www.christoc.com/</url>
         <email>modules@christoc.com</email>
       </owner>
