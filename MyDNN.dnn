@@ -53,6 +53,7 @@
               <supportedFeature>ISearchable</supportedFeature>
               <supportedFeature>IUpgradeable</supportedFeature>
             </supportedFeatures>
+            
             <moduleDefinitions>
               <moduleDefinition>
                 <friendlyName>MyDNN</friendlyName>
@@ -93,6 +94,7 @@
               </moduleDefinition>
             </moduleDefinitions>
           </desktopModule>
+          
           <eventMessage>
             <processorType>DotNetNuke.Entities.Modules.EventMessageProcessor, DotNetNuke</processorType>
             <processorCommand>UpgradeModule</processorCommand>
