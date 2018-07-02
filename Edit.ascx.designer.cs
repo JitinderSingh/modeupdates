@@ -8,8 +8,6 @@
 //------------------------------------------------------------------------------
 
 namespace DotNetNuke.Modules.MyDNN {
-    
-    
     public partial class Edit {
         
         /// <summary>
