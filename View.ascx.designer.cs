@@ -9,8 +9,6 @@
 
 namespace DotNetNuke.Modules.MyDNN
 {
-
-
     public partial class View
     {
         /// <summary>
