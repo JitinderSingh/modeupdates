@@ -17,7 +17,7 @@ using DotNetNuke.Services.Exceptions;
 
 namespace DotNetNuke.Modules.MyDNN
 {
-    /// -----------------------------------------------------------------------------
+    /// -----------------------------------------------
     /// <summary>   
     /// The Edit class is used to manage content
     /// 
@@ -28,7 +28,7 @@ namespace DotNetNuke.Modules.MyDNN
     /// defined there, as well as properties from DNN such as PortalId, ModuleId, TabId, UserId and many more.
     /// 
     /// </summary>
-    /// -----------------------------------------------------------------------------
+    /// ----------------------------------------------
     public partial class Edit : MyDNNModuleBase
     {
         protected void Page_Load(object sender, EventArgs e)
